@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Judith</title>
+    <title>Jay's Clothing</title>
     <link rel="icon" type="image" href="./assets/img/washing-clothes.png" />
     <link rel="stylesheet" href="./assets/style.css" />
     <!-- this is a style-->
@@ -14,13 +14,13 @@
   <body class="bg">
     <nav>
       <!-- Logo -->
-      <h4 class="logo">Judith</h4>
+      <h4 class="logo">Maison Judith</h4>
       <!-- navigation -->
       <ul>
-        <li>Home</li>
-        <li>Collections</li>
-        <li>Brands</li>
-        <li>About Us</li>
+        <li><a href="https://www.w3schools.com">Homes</a></li>
+        <li><a href="https://www.w3schools.com">Collections</a></li>
+        <li><a href="https://www.w3schools.com">Brands</a></li>
+        <li><a href="https://www.w3schools.com">About Us</a></li>
       </ul>
       <!-- two button at the top right -->
       <div class="top_action">
@@ -32,6 +32,7 @@
       </div>
     </nav>
     <section>
+      <p>The House. The Heritage. The Identity.</p>
       <div class="explore">
         <div class="explore_details">
           <h2>Elevate Style, Embrace Story</h2>
@@ -73,5 +74,89 @@
         </div>
       </div>
     </section>
+
+<form action="action_page.php" method="post">
+    <div>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" Placeholder="Judith" required><br>
+ </div>
+ <br> 
+ <div>
+    <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" value="James" required>
+  </div>
+<br>
+  <div>
+    <label for="pass">password:</label>
+  <input type="password" id="pass" name="pass" maxlength="12" required>
+  </div>
+<br>
+  <div>
+    <label for="email">email:</label>
+  <input type="email" id="email" name="email" placeholder="jays@gmail.com" required>
+  </div>
+<br>
+  <div>
+    <label for="phone">phone:</label>
+  <input type="tel" id="phone" name="phone" placeholder="123-567-9100" required>
+  </div>
+  <br>
+
+  <div>
+    <label for="bdate">birthdate:</label>
+  <input type="date" id="bdate" name="bdate" >
+  </div>
+<br>
+
+<div>
+    <label for="quantity">quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="0" max="99" value="1">  
+</div>
+<br>
+
+<div>
+
+  <label for="title">title</label>
+
+    <label for="Mr.">Mr.</label>
+    <input type="radio" id="Mr." name="title" value="Mr.">
+
+    <label for="Mrs.">Mrs.</label>
+    <input type="radio" id="Mrs." name="title" value="Mrs.">
+
+    <label for="PhD.">PhD.</label>
+    <input type="radio" id="PhD." name="title" value="PhD.">
+  </div>
+
+  <br>
+
+  <div>
+     <label for="payment">Payment</label>
+     <select id="payment" name="payment">
+     <option value="Cash">Cash</option>
+     <option value="Pos">Pos</option>
+     <option value="Transfer">Transfer</option>
+    </select>
+  </div>
+
+  <br>
+
+  <div>
+    <label for="Subscribe">Subcribe:</label>
+    <input type="checkbox" id="subscribe" name="subscribe"> 
+  </div>
+
+<div>
+    <input type="reset">
+</div>
+
+<br>
+
+<div>
+    <input type="submit">
+</div>
+</form>
+
+
   </body>
 </html>
